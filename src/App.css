@@ -2,37 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro {
+  margin: 5% 2%;
+  background-color: rgb(213, 225, 213);
+  padding: 3%;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rooms {
+  justify-content: space-between;
+  margin: 2% 4%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form {
+  background-color: rgb(235, 203, 213);
+  margin: 5% 2%;
+  padding: 3%;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  text-align: center;
+  background-color:rgb(213, 225, 213) ;
+  padding: 2%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  background-color: #ff6347; /* Exemple : couleur tomate */
 }
